@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<title>Registro</title>
+</head>
+<body>
+	<h3>Forma de registro</h3>
+	<form action="registroUsuario.php" method="GET">
+		<div class="form-group">
+			<label for="usuario">Usuario:</label>
+			<input type="text" class="form-control" name="user">
+		</div>
+		<div class="form-group">
+			<label for="pwd">Password:</label>
+			<input type="password" class="form-control" name="clave">
+		</div>
+		<div class="form-group">
+			<label for="nombre">Nombre</label>
+			<input type="text" class="form-control" name="nombre">
+		</div>
+		<div class="form-group">
+			<label for="ap_paterno">Apellido Paterno</label>
+			<input type="text" class="form-control" name="ap_pat">
+		</div>
+		<div class="form-group">
+			<label for="ap_materno">Apellido Materno</label>
+			<input type="text" class="form-control" name="ap_mat">
+		</div>
+		<div class="form-group">
+			<label for="edad">Edad</label>
+			<input type="text" class="form-control" name="edad">
+		</div>
+		<button type="submit" class="btn btn-success">Registrarse</button>
+	</form>
+</body>
+</html>
