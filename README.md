@@ -1,8 +1,8 @@
 # Primer Proyecto del curso de Web
 
-##Autor
+## Autor
 * Quiñones Rivera Josué Emanuel
 * Prebecario No. 3
 
-##Tienda
+## Tienda
 Creacion de una aplicacion web para una tienda online.
